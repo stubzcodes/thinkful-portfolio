@@ -93,15 +93,21 @@ p{
 .list-style{
   font-family: ltc-hadriano-pro, tahoma, sans-serif;
   font-size: 15px;
-  margin-left: 250px;
+  display: inline-block;
+  text-align: left;
   padding-top: 15px;
 }
 
 .list-style2{
   font-family: ltc-hadriano-pro, tahoma, sans-serif;
   font-size: 25px;
-  margin-left: 300px;
+  display: inline-block;
+  text-align: left;
   padding-top: 15px;
+}
+
+div.container {
+  text-align: center;
 }
 
 /*link pseudo classes*/
