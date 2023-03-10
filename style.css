@@ -1,0 +1,111 @@
+/* Standard CSS styling */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*heading styles*/
+h1{
+  font-family: roboto-slab, tilt-warp, sans-serif;
+  font-size: 30px;
+  font-weight: 1000;
+  letter-spacing: 5px;
+  text-shadow: 5px 5px 10px gray;
+}
+
+h2{
+  text-align: center;
+  font-family: ltc-hadriano-pro, tahoma, sans-serif;
+}
+
+h3{
+  text-align: center;
+  font-family: ltc-hadriano-pro, tahoma, sans-serif;
+  text-decoration: underline;
+  }
+
+/*paragraph style*/
+p{
+  text-align: center;
+  font-family: ltc-hadriano-pro, tahoma, sans-serif;
+  font-size: 17px;
+  margin: 15px;
+}
+
+/*border style*/
+.round{
+  border-radius: 10px;
+}
+
+.border{
+  border: 5px solid #9368B7;
+}
+
+.picture-border{
+  border: 3px solid lavender;
+}
+
+/*footer text style*/
+.footer-style{
+  font-size: 15px;
+  color: #80DED9
+}
+
+/*semantic container background styles*/
+.main-background{
+  background-color: #9297c4;
+}
+
+.header-background{
+  background-color: #F4BFDB;
+}
+
+
+.article-background{
+  background-color: lavender;
+  border: 3px solid #9297c4;
+  border-radius: 10px;
+  padding: 10px
+}
+
+.footer-background{
+  background-color: #575366;
+  padding: 25px;
+}
+
+/*picture formatting*/
+.wrapper{
+  width: 400px;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px
+}
+
+
+/*list styles*/
+.list-style{
+  font-family: ltc-hadriano-pro, tahoma, sans-serif;
+  font-size: 15px;
+  margin-left: 250px;
+  padding-top: 15px;
+}
+
+.list-style2{
+  font-family: ltc-hadriano-pro, tahoma, sans-serif;
+  font-size: 25px;
+  margin-left: 300px;
+  padding-top: 15px;
+}
+
+/*link pseudo classes*/
+a:link {color: #068D9D}
+a:visited {color: #53599A}
+a:hover {color: #80DED9}
+a:active {color: #6D9DC5}
